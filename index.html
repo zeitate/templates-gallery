@@ -4,92 +4,133 @@
   <meta charset="UTF-8">
   <title>My Websites Template Gallery</title>
   <style>
-    body { font-family: sans-serif; display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; }
-    .card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; width: 300px; text-align: center; }
-    iframe { width: 100%; height: 200px; border: none; }
-    h3 { margin: 10px 0; }
-    a { text-decoration: none; color: #007bff; }
+    body {
+      font-family: sans-serif;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      padding: 40px;
+      background: #f8f9fa;
+      justify-items: center;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 90%;
+      max-width: 700px;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+
+    h3 {
+      margin: 15px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <div class="card">
     <iframe src="https://zeitate.github.io/ruggable-mockup/"></iframe>
-    <h3><a href="https://github.com/zeitate/ruggable-mockup">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/ruggable-mockup/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/company-style/"></iframe>
-    <h3><a href="https://github.com/zeitate/company-style">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/company-style/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
+  <div class="card">
     <iframe src="https://zeitate.github.io/appointment/"></iframe>
-    <h3><a href="https://github.com/zeitate/appointment">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/appointment/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/medical/"></iframe>
-    <h3><a href="https://github.com/zeitate/medical">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/medical/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
+  <div class="card">
     <iframe src="https://zeitate.github.io/architectural-inc/"></iframe>
-    <h3><a href="https://github.com/zeitate/architectural-inc">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/architectural-inc/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/interior-design/"></iframe>
-    <h3><a href="https://github.com/zeitate/interior-design">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/interior-design/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
+  <div class="card">
     <iframe src="https://zeitate.github.io/ecommerce/"></iframe>
-    <h3><a href="https://github.com/zeitate/ecommerce">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/ecommerce/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/3d-modelling/"></iframe>
-    <h3><a href="https://github.com/zeitate/3d-modelling">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/3d-modelling/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
+  <div class="card">
     <iframe src="https://zeitate.github.io/academic-achievement/"></iframe>
-    <h3><a href="https://github.com/zeitate/academic-achievement">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/academic-achievement/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/real-estate/"></iframe>
-    <h3><a href="https://github.com/zeitate/real-estate">Template 2</a></h3>
-  </div>  <div class="card">
+    <h3><a href="https://zeitate.github.io/real-estate/" target="_blank">Template 2</a></h3>
+  </div>
+  <div class="card">
     <iframe src="https://zeitate.github.io/business-directory/"></iframe>
-    <h3><a href="https://github.com/zeitate/business-directory">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/business-directory/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/career-counseling/"></iframe>
-    <h3><a href="https://github.com/zeitate/career-counseling">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/career-counseling/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
+  <div class="card">
     <iframe src="https://zeitate.github.io/landing-page/"></iframe>
-    <h3><a href="https://github.com/zeitate/landing-page">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/landing-page/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/pet-food/"></iframe>
-    <h3><a href="https://github.com/zeitate/pet-food">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/pet-food/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
+  <div class="card">
     <iframe src="https://zeitate.github.io/real-estate-2/"></iframe>
-    <h3><a href="https://github.com/zeitate/real-estate-2">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/real-estate-2/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/real-estate-3/"></iframe>
-    <h3><a href="https://github.com/zeitate/real-estate-3">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/real-estate-3/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
+  <div class="card">
     <iframe src="https://zeitate.github.io/annual-awards/"></iframe>
-    <h3><a href="https://github.com/zeitate/annual-awards">Template 1</a></h3>
+    <h3><a href="https://zeitate.github.io/annual-awards/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/vending-machines/"></iframe>
-    <h3><a href="https://github.com/zeitate/vending-machines">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/vending-machines/" target="_blank">Template 2</a></h3>
   </div>
-    <div class="card">
-    <iframe src="https://zeitate.github.io/travel-agency /"></iframe>
-    <h3><a href="https://github.com/zeitate/travel-agency ">Template 1</a></h3>
+  <div class="card">
+    <iframe src="https://zeitate.github.io/travel-agency/"></iframe>
+    <h3><a href="https://zeitate.github.io/travel-agency/" target="_blank">Template 1</a></h3>
   </div>
   <div class="card">
     <iframe src="https://zeitate.github.io/printing-company/"></iframe>
-    <h3><a href="https://github.com/zeitate/printing-company">Template 2</a></h3>
+    <h3><a href="https://zeitate.github.io/printing-company/" target="_blank">Template 2</a></h3>
   </div>
 </body>
 </html>
